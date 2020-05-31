@@ -1,0 +1,257 @@
+.border {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border: 5px solid black;
+}
+
+.basis {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: blueviolet;
+    bottom: 117px;
+    margin-left: 150px;
+}
+
+.door {
+    position: absolute;
+    height: 120px;
+    width: 60px;
+    background: brown;
+    bottom: 117px;
+    margin-left: 170px;
+}
+
+.window {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: white;
+    bottom: 190px;
+    margin-left: 255px;
+    outline: 2px solid #000;
+}
+
+.roof1 {
+    position: absolute;
+    height: 40px;
+    width: 260px;
+    background: red;
+    bottom: 190px;
+    margin: 120px;
+}
+
+.roof2 {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    background: red;
+    bottom: 200px;
+    margin: 150px;
+}
+
+.roof3 {
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    background: red;
+    bottom: 210px;
+    margin: 180px;
+}
+
+
+
+.border1 {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border: 5px solid black;
+    position: relative;
+}
+
+.roof {
+    position: relative;
+    height: 0; 
+    width: 100px;
+    border-bottom: 140px solid red;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    bottom: -160px;
+}
+
+.basis1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    bottom: -160px;
+    margin-left: 5px;
+}
+
+.window1 {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background: black;
+    bottom: 110px;
+    margin-left: 100px;
+    outline: 2px solid white;
+}
+
+.door1 {
+    z-index: 2;
+    position: relative;
+    height: 120px;
+    width: 60px;
+    background: brown;
+    bottom: -40px;
+    margin-left: -90px;
+}
+
+.border2 {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border: 5px solid black;
+    position: static;
+}
+
+.tube {
+    position: static;
+    height: 60px;
+    width: 40px;
+    background: grey;
+    margin-top: -220px;
+    margin-left: -150px;
+}
+
+.rooff {
+    position: relative;
+    z-index: 10000;
+    width: 0; 
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 120px solid orange;
+    margin-top: 181px;
+    margin-left: 10px;
+
+}
+
+.basis2 {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.door2 {
+    z-index: 2;
+    position: static;
+    height: 120px;
+    width: 60px;
+    background: brown;
+    margin-top: -130px;
+    margin-left: -90px;
+}
+
+.window2 {
+    position: static;
+    height: 70px;
+    width: 70px;
+    background: white;
+    margin-top: -140px;
+    margin-left: 100px;
+    outline: 2px solid #000;
+}
+
+
+.sticky {
+    position: sticky;
+}
+
+.basis3 {
+    position: sticky;
+    width: 120px;
+    height: 120px;
+    background: red;
+    bottom: 444px;
+    left: 50px;
+}
+
+.rooff1 {
+    z-index: 10000;
+    position: sticky;
+    height: 0; 
+    width: 100px;
+    border-bottom: 50px solid brown;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    bottom: 563px;
+    left: -120px;
+}
+
+.door3 {
+    z-index: 10000;
+    position: sticky;
+    height: 80px;
+    width: 40px;
+    background: brown;
+    bottom: 444px;
+    left: 65px;
+}
+
+.window3 {
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    background: white;
+    outline: 2px solid #000;
+    bottom: 504px;
+    left: 120px; 
+}
+
+.basis4 {
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    background: violet;
+    bottom: 444px;
+    right: 60px;
+}
+
+.rooff2 {
+    position: fixed;
+    z-index: 10000;
+    height: 0; 
+    width: 100px;
+    border-bottom: 50px solid brown;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    bottom: 563px;
+    right: 20px;
+}
+
+.window4 {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background: white;
+    outline: 2px solid #000;
+    bottom: 504px;
+    right: 70px;
+}
+
+.door4 {
+    position: fixed;
+    z-index: 10000;
+    height: 80px;
+    width: 40px;
+    background: brown;
+    bottom: 444px;
+    right: 125px;
+}
+
